@@ -1,0 +1,13 @@
+<main class="flex flex-col h-dvh w-full bg-slate-900">
+  <section class="flex m-5 mx-auto">
+    <button
+      [class]="'size-11 m-2 rounded-full font-bold '+(activeStep === i ?' text-black bg-LightBlue': ' border-solid border-2 text-white border-white ')"
+      *ngFor="let i of steps"
+    >
+      {{ i }}
+    </button>
+  </section>
+  <section>
+    
+  </section>
+</main>
