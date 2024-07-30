@@ -1,11 +1,12 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { PersonalInfoComponent } from './components/personal-info/personal-info.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgFor, NgIf],
+  imports: [RouterOutlet, NgFor, NgIf,PersonalInfoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
